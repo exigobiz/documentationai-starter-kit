@@ -1,0 +1,28 @@
+---
+title: Project Build Error
+description: Resolve build errors when setting up projects.
+---
+
+## Symptoms
+
+- "Build failed" message
+- Red error status in the dashboard
+
+## Causes
+
+- Incorrect dependencies
+- Invalid project settings
+
+## Solution
+
+<Steps>
+  <Step title="Check dependencies">
+    ````bash
+    npm install
+    aampdev doctor
+    ````
+  </Step>
+  <Step title="Verify configuration">
+    Open your project settings and review build config values.
+  </Step>
+</Steps>

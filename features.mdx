@@ -1,0 +1,179 @@
+---
+title: Core Features
+description: Explore the main capabilities of AAMP Development and how they support business-focused project management. Learn the essential workflows for organizing, managing, and scaling documentation and projects.
+---
+## Overview
+
+AAMP Development gives you a flexible starting point for organizing project knowledge, documenting processes, and coordinating team work. This starter kit is designed to help you shape a documentation space that matches your workflow, whether you manage product plans, internal guides, or customer-facing resources.
+
+The core idea is simple: keep important information easy to find, keep ownership clear, and keep your content structure consistent. That makes it easier for your team to contribute, review, and update documentation as your business grows.
+
+<Callout kind="info">
+This page is part of a starter kit template. Adapt the examples, labels, and workflows to match your own team structure and documentation process.
+</Callout>
+
+## Core capabilities
+
+Use these building blocks to create a documentation system that supports both day-to-day work and long-term scaling.
+
+<Columns cols={2}>
+  <Card title="Project organization" icon="folder" href="#project-organization">
+    
+Structure your work into clear sections so teams can find plans, tasks, and references quickly.
+  
+  </Card>
+  <Card title="Documentation management" icon="book-open" href="#documentation-management">
+    
+Keep policies, playbooks, and reference material in one place with consistent naming and ownership.
+  
+  </Card>
+  <Card title="Team collaboration" icon="users" href="#team-collaboration">
+    
+Make it easier for people to review updates, share context, and stay aligned on priorities.
+  
+  </Card>
+  <Card title="Content structure" icon="layout-grid" href="#content-structure">
+    
+Use repeatable page patterns so your docs stay readable as the number of pages increases.
+  
+  </Card>
+</Columns>
+
+## Project organization
+
+A strong project structure helps you separate planning from execution. You can group content by function, department, or lifecycle stage. For example, one section can hold planning notes while another holds launch checklists and post-launch follow-up.
+
+This approach reduces duplication and gives readers a clear path through your information. It also makes it easier to assign ownership because each area has a defined purpose.
+
+<Steps>
+  <Step title="Define your top-level areas" icon="settings">
+    
+Start with a small number of categories such as strategy, delivery, support, and reference material. Keep the names broad enough to grow with your needs.
+  
+  </Step>
+  <Step title="Assign ownership" icon="users">
+    
+Give each area a primary owner so updates do not get lost. Ownership can be shared, but the responsibility should be visible.
+  
+  </Step>
+  <Step title="Review structure regularly" icon="check-circle">
+    
+Revisit the layout after major releases or team changes. If readers struggle to find content, simplify the structure instead of adding more layers.
+  
+  </Step>
+</Steps>
+
+## Documentation management
+
+Documentation works best when it supports action. Write pages that answer common questions, explain how a process works, and show what to do next. Keep page titles clear and use sections that reflect real tasks.
+
+You can also standardize content formats across your site. That makes it easier for contributors to write new pages and for readers to understand where to look.
+
+<CodeGroup tabs="Markdown,JSON">
+  ```markdown
+  ## Release Notes
+
+  Use this page to record what changed, why it changed, and who should review it.
+
+  ### Highlights
+
+  - New workflow guidance
+  - Updated ownership model
+  - Improved navigation for common tasks
+  ```
+  ```json
+  {
+    "pageTitle": "Release Notes",
+    "owner": "Documentation Team",
+    "status": "ready",
+    "audience": ["internal", "partners"]
+  }
+  ```
+</CodeGroup>
+
+## Team collaboration
+
+Collaboration improves when people know where to contribute and how feedback is handled. A documentation space should support both quick updates and deeper review cycles. That means using a predictable process for drafting, editing, and approving changes.
+
+You can use the same structure for many kinds of work: onboarding guides, process documentation, knowledge base articles, and project summaries. The more consistent the format, the easier it is for your team to participate.
+
+<Tabs>
+  <Tab title="Drafting" icon="edit-3">
+    
+Use a draft page for new ideas, rough notes, and early decisions. Keep the tone informal until the content is ready for review.
+  
+  </Tab>
+  <Tab title="Reviewing" icon="search">
+    
+Invite stakeholders to verify accuracy, clarity, and missing context. Focus on whether the page helps someone complete a task.
+  
+  </Tab>
+  <Tab title="Publishing" icon="check">
+    
+Move approved content into its final location and link it from related pages so readers can follow the full workflow.
+  
+  </Tab>
+</Tabs>
+
+## Content structure
+
+Good structure makes content easier to scan. Start with the most important information, then move into examples, exceptions, and deeper detail. Keep sections short enough that readers can jump to the part they need.
+
+A helpful pattern is to organize pages around what users need to do. For example, a page can explain the goal, list the steps, show a sample format, and then point to related resources.
+
+### Recommended page pattern
+
+| Section | Purpose |
+| --- | --- |
+| Overview | Explain what the page covers and who it is for. |
+| Workflow | Show the steps or sequence a reader should follow. |
+| Example | Demonstrate a realistic implementation. |
+| Notes | Call out edge cases, responsibilities, or next actions. |
+
+<Callout kind="tip">
+If a page feels too long, split it into smaller topic-based pages and link them together. Smaller pages are usually easier to maintain and update.
+</Callout>
+
+## Common use cases
+
+AAMP Development can support many documentation scenarios without locking you into one process. Use it for internal knowledge bases, project playbooks, onboarding material, or documentation for business services. The same core structure can adapt to many teams.
+
+<ExpandableGroup>
+  <Expandable title="Project planning" default-open="true" title-type="h3">
+    
+Use documentation to define goals, scope, milestones, and responsibilities. This keeps project discussions focused and reduces repeated questions.
+    
+  </Expandable>
+  <Expandable title="Operational guides" default-open="false" title-type="h3">
+    
+Document recurring processes such as approvals, publishing steps, or content review cycles. Clear guidance helps teams work consistently.
+    
+  </Expandable>
+  <Expandable title="Knowledge sharing" default-open="false" title-type="h3">
+    
+Store decisions, lessons learned, and reference material in one place so new team members can get context quickly.
+    
+  </Expandable>
+</ExpandableGroup>
+
+## Next steps
+
+Start with a small set of pages, then expand as your needs become clearer. A simple structure is often more effective than a large, overbuilt one.
+
+<Columns cols={3}>
+  <Card title="Quickstart" icon="rocket" href="/quickstart">
+    
+Set up your first pages and learn the recommended publishing flow.
+  
+  </Card>
+  <Card title="Introduction" icon="book-open" href="/introduction">
+    
+Review the starter layout and see how the documentation area is organized.
+  
+  </Card>
+  <Card title="Changelog" icon="refresh-cw" href="/changelog">
+    
+Track important updates and keep your team informed about changes.
+  
+  </Card>
+</Columns>
